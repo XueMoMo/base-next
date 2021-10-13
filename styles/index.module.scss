@@ -1,0 +1,17 @@
+.main {
+  color: white;
+}
+
+.animStart {
+  transition: all ease-out 0ms;
+  position: relative;
+  left: -515px;
+  margin-left: 18px;
+  transform: rotate(-720deg);
+}
+
+.animFinal {
+  transition: all cubic-bezier(.41, .19, .21, 1.43) 1.6s;
+  left: 0;
+  transform: rotate(0deg);
+}
