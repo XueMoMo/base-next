@@ -1,10 +1,7 @@
 import {useEffect, useMemo, useState} from "react";
 
 export class ParallaxItem {
-  constructor() {
-  }
-
-  value: boolean = false
+  value = false
 }
 
 export interface UseParallax {

@@ -1,5 +1,5 @@
-import 'semantic-ui-css/semantic.min.css'
 import '../styles/global.css'
+import 'semantic-ui-css/semantic.min.css'
 import {AppProps} from 'next/app'
 import i18next from "i18next";
 import I18NextHttpBackend from "i18next-http-backend";
